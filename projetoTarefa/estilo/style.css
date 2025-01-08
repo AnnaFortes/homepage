@@ -1,0 +1,122 @@
+/* 
+cores: 
+rosa = #E15D5E
+roxo claro = #6D284A
+roxo escuro = #3F1140 
+*/
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0px;  
+    padding: 5vh;  
+    background-image: linear-gradient(90deg, #E15D5E, #6D284A);
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: -5vh;
+}
+
+form label {
+    display: block;
+    margin-top: 10vh; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.input-group input[type="text"] {
+    font-size: 0.8em;
+    width: 45vw;
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    outline: none; /* remove o contorno */
+}
+
+.input-group input[type="button"] {
+    width: 50px;
+    background-color: #ffffff;
+    padding: 7px;
+    border: 0px transparent;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.input-group input[type="button"]:hover {
+    background-color: #4d1c34;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+#inputExterno {
+    display: flex; /* Flex container para alinhamento dos elementos */
+    flex-direction: column; /* Cada linha de tarefa ocupa uma linha */
+    gap: 10px; /* Espaçamento entre as tarefas */
+}
+
+.tarefa-item {
+    display: flex; /* Flex container para alinhar input e botões */
+    align-items: center; /* Alinha os elementos verticalmente */
+    gap: 5px; /* Espaço entre o input e os botões */
+    margin-bottom: 5px;
+}
+
+.texto {
+    flex: 1; /* O input cresce para ocupar o máximo de espaço */
+    background-color: #ffffff;
+    padding: 6.5px;
+    border: 0px transparent;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+}
+
+.btn-verif, .btn-remove {
+    background-color: #ffffff;
+    width: 40px; 
+    height: 40px; 
+    border: 0px transparent;
+    border-radius: 3px; 
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: .5s; /* animaçãp nos botões */
+}
+
+.btn-verif:hover {
+    background-color: rgba(35, 190, 35, 0.719);
+    color: #ffffff;
+}
+
+.btn-remove:hover {
+    background-color: rgba(226, 13, 13, 0.829);
+    color: #ffffff;
+}
