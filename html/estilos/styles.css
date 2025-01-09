@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: "Nunito", serif;
+    font-size: 1.8em;
+    padding: 20px;
+    margin: 15px ;
+    text-align: center;
+    text-indent: 20px;
+}
+
+h2.fonte {
+    font-family: "Nunito", serif;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+    text-align: start;
+    text-indent: 20px;
+}
+
+:root {
+    --cor0: #2C3532; /* quase preto */
+    --cor1: #0F6466; /* verde agua escuro */
+    --cor2: #D8B08C; /* marrom claro */
+    --cor3: #FFCB9A; /* salmon */
+    --cor4: #D2E8E3; /* azul bebe claro */
+}
+
+body {
+    background-image: linear-gradient(90deg, var(--cor4), var(--cor3));
+    min-height: 100px;
+} 
+
+main {
+    display: block;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: #2C3532;
+}
+
+main a:hover {
+    color: #0F6466;
+    cursor: pointer;
+}
+
+a.externo::before {
+    content: '\1f517';
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #2c3532a1;
+    cursor: pointer;
+}
+
+img:hover {
+    border: 2px solid #d2e8e36b;
+    transform: translate(-2px, -2px); 
+    transition: transform .3s;  
+}
+
