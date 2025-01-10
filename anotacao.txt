@@ -1,0 +1,42 @@
+ <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Primeiro slide -->
+                <div class="primeiroCarrosel carousel-item active">
+                    <img class="imgCarrosel " src="../imagens/imagens-carrosel/headerandroid.png" alt="Projeto Android">
+                    <div class="projeto">
+                    </div>
+                </div>
+                <!-- Segundo slide -->
+                <div class="segundoCarrosel carousel-item">
+                    <img class="imgCarrosel" src="../imagens/imagens-carrosel/headercordel.png" alt="Projeto Cordel">
+                    <div class="projeto">
+                    </div>
+                </div>
+                <div class="terceiroCarrosel carousel-item">
+                    <img class="imgCarrosel" src="../imagens/imagens-carrosel/headertarefa.png" alt="Projeto tarefas">
+                    <div class="projeto">
+                    </div>
+                </div>
+                <div class="quartoCarrosel carousel-item">
+                    <img class="imgCarrosel" src="../imagens/imagens-carrosel/headerlogin.png" alt="Projeto login">
+                    <div class="projeto">
+                        
+                    </div>
+                </div>
+                <div class="quintoCarrosel carousel-item">
+                    <img class="imgCarrosel" src="../imagens/imagens-carrosel/headertrivia.png" alt="Projeto Trivia">
+                    <div class="projeto">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Controles de Navegação -->
+            <button class="carrosel-esquerda carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="oculto visually-hidden">Anterior</span>
+            </button>
+            <button class="carrosel-direita carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="oculto visually-hidden">Próximo</span>
+            </button>
+        </div>

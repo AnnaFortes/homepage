@@ -38,7 +38,7 @@ main {
 form label {
     display: block;
     margin-top: 10vh; 
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -102,8 +102,9 @@ p {
 
 .btn-verif, .btn-remove {
     background-color: #ffffff;
-    width: 40px; 
-    height: 40px; 
+    width: 50px; 
+    height: 50px; 
+    padding: 6.5;
     border: 0px transparent;
     border-radius: 3px; 
     cursor: pointer;
